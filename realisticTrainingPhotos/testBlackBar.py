@@ -19,9 +19,9 @@ for pt in plist:
     # Paso todo a ByN
     (thresh, blackAndWhiteImage) = cv2.threshold(grayImage, 127, 255, cv2.THRESH_BINARY)
 
-    cv2.imshow('Black white image', blackAndWhiteImage)
-    cv2.waitKey(0)
-    cv2.destroyAllWindows()
+    #cv2.imshow('Black white image', blackAndWhiteImage)
+    #cv2.waitKey(0)
+    #cv2.destroyAllWindows()
 
     # alpha = 3.5  # Contrast control (1.0-3.0)
     # beta = 0  # Brightness control (0-100)
